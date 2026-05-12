@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
-// 1. Improved Page Components with a "Card" look
+
 const Home = () => (
   <div style={pageStyle}>
     <h2>🏠 Home Page</h2>
@@ -27,7 +27,7 @@ function App() {
   return (
     <BrowserRouter>
       <div style={containerStyle}>
-        {/* 2. Styled Navigation Bar */}
+        {}
         <nav style={navStyle}>
           <h1 style={{ color: 'white', margin: 0, fontSize: '1.2rem' }}>MyProject</h1>
           <div>
@@ -37,7 +37,7 @@ function App() {
           </div>
         </nav>
 
-        {/* 3. Main Content Area */}
+        {}
         <main style={{ marginTop: '20px' }}>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -54,7 +54,7 @@ function App() {
   );
 }
 
-// --- CSS-IN-JS STYLES ---
+
 
 const containerStyle = {
   maxWidth: '800px',
